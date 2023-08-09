@@ -1,0 +1,31 @@
+/*Estilo da tabela*/
+
+/*Estilo das bordas da tabela*/
+table, td, th{
+    border: solid 1px black;
+}
+table{
+    border-collapse:collapse ;
+    text-align: center;
+}
+td{
+    width: 200px;
+    font-size: 20px;
+}
+th{
+    font-size: 25px;
+    background-color: brown;
+}
+
+tr:nth-child(even) {background-color: #bebebe}
+
+tr:hover {background-color: #8b8b8b}
+
+th {
+    background-color: #ad0096;
+    color: rgb(255, 239, 91);
+}
+
+/*estilo de cores da tabela*/
+
+/*Estilo do comportamento da tabela
